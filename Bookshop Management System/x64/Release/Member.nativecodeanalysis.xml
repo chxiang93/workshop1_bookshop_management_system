@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FTMK\SEM 3\BITU2913 WORKSHOP I\connector8.0\include\jdbc\cppconn\</FILEPATH>
+      <FILENAME>exception.h</FILENAME>
+      <LINE>112</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>sql::SQLException::{dtor}</FUNCTION>
+    <DECORATED>??1SQLException@sql@@UEAA@XZ</DECORATED>
+    <FUNCLINE>112</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FTMK\SEM 3\BITU2913 WORKSHOP I\connector8.0\include\jdbc\cppconn\</FILEPATH>
+      <FILENAME>exception.h</FILENAME>
+      <LINE>160</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>sql::SQLUnsupportedOptionException::{dtor}</FUNCTION>
+    <DECORATED>??1SQLUnsupportedOptionException@sql@@UEAA@XZ</DECORATED>
+    <FUNCLINE>160</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FTMK\SEM 3\BITU2913 WORKSHOP I\connector8.0\include\jdbc\cppconn\</FILEPATH>
+      <FILENAME>variant.h</FILENAME>
+      <LINE>298</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'sql::Variant::variant' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>sql::Variant::{ctor}</FUNCTION>
+    <DECORATED>??0Variant@sql@@QEAA@AEBV01@@Z</DECORATED>
+    <FUNCLINE>298</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>sql::Variant::variant</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FTMK\SEM 3\BITU2913 WORKSHOP I\connector8.0\include\boost\smart_ptr\detail\</FILEPATH>
+      <FILENAME>local_counted_base.hpp</FILENAME>
+      <LINE>45</LINE>
+      <COLUMN>76</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'boost::detail::local_counted_base::count_type' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>boost::detail::local_counted_base::{ctor}</FUNCTION>
+    <DECORATED>??0local_counted_base@detail@boost@@QEAA@XZ</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FTMK\SEM 3\BITU2913 WORKSHOP I\Bookshop Management System\</FILEPATH>
+      <FILENAME>Member.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Member::memberId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Member::{ctor}</FUNCTION>
+    <DECORATED>??0Member@@QEAA@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Member::memberId</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\FTMK\SEM 3\BITU2913 WORKSHOP I\Bookshop Management System\</FILEPATH>
+      <FILENAME>Member.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Member::bookshopId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Member::{ctor}</FUNCTION>
+    <DECORATED>??0Member@@QEAA@XZ</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Member::bookshopId</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
